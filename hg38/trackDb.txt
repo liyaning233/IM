@@ -1,31 +1,1999 @@
-track PC3_C1_Tier1
-shortLabel PC3 C1 T1
+track c1_super
+shortLabel C1
 longLabel PC3 iM-Var Channel1 Tier1 (SNV/Indel)
-type bigBed 9
-visibility pack
-itemRgb On
-bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/main/hg38/PC3.channel1_tier1.ucsc.bb
+superTrack on show
 
-track PC3_C2_Annotated_Tier1
-shortLabel PC3 C2 T1
-longLabel PC3 iM-Var Channel2 annotated Tier1 (SV/CNV)
-type bigBed 9
-visibility pack
-itemRgb On
-bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/main/hg38/PC3.channel2_annotated_tier1.ucsc.bb
+    track c1.v_class
+    shortLabel C1 V-layer
+    longLabel C1 V-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.v_class.bb
 
-track PC3_Joint_Tier1_Star
-shortLabel PC3 J T1*
+    track c1.o_class
+    shortLabel C1 O-layer
+    longLabel C1 O-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.o_class.bb
+
+    track c1.m_class
+    shortLabel C1 M-layer
+    longLabel C1 M-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.m_class.bb
+
+    track c1.e_class
+    shortLabel C1 E-layer
+    longLabel C1 E-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.e_class.bb
+
+    track c1.display_outcome
+    shortLabel C1 Claim
+    longLabel C1 Claim
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.display_outcome.bb
+
+    track c1.om_consistent
+    shortLabel C1 O-M Consistency
+    longLabel C1 O-M Consistency
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.om_consistent.bb
+
+    track c1.m_subtype
+    shortLabel C1 M Subtype
+    longLabel C1 M Subtype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.m_subtype.bb
+
+    track c1.clinvar_clnsig
+    shortLabel C1 ClinVar
+    longLabel C1 ClinVar
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.clinvar_clnsig.bb
+
+    track c1.cosmic_db_id
+    shortLabel C1 COSMIC
+    longLabel C1 COSMIC
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.cosmic_db_id.bb
+
+    track c1.ccre_types
+    shortLabel C1 cCRE
+    longLabel C1 cCRE
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.ccre_types.bb
+
+    track c1.vep_consequence
+    shortLabel C1 VEP
+    longLabel C1 VEP
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_consequence.bb
+
+    track c1.vep_biotype
+    shortLabel C1 VEP Biotype
+    longLabel C1 VEP Biotype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_biotype.bb
+
+    track c1.vep_impact
+    shortLabel C1 VEP Impact
+    longLabel C1 VEP Impact
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_impact.bb
+
+    track c1.vep_gene
+    shortLabel C1 VEP Gene
+    longLabel C1 VEP Gene
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_gene.bb
+
+    track c1.event_type
+    shortLabel C1 Event Type
+    longLabel C1 Event Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.event_type.bb
+
+    track c1.o_claim_scope
+    shortLabel C1 O Claim Scope
+    longLabel C1 O Claim Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.o_claim_scope.bb
+
+    track c1.seq_reconstruction_status
+    shortLabel C1 Seq Reconstruction Status
+    longLabel C1 Seq Reconstruction Status
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.seq_reconstruction_status.bb
+
+    track c1.effect_scope
+    shortLabel C1 Effect Scope
+    longLabel C1 Effect Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.effect_scope.bb
+
+    track c1.channel1_tier
+    shortLabel C1 Channel1 Tier
+    longLabel C1 Channel1 Tier
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_tier.bb
+
+    track c1.gt
+    shortLabel C1 Gt
+    longLabel C1 Gt
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.gt.bb
+
+    track c1.is_phased
+    shortLabel C1 Is Phased
+    longLabel C1 Is Phased
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.is_phased.bb
+
+    track c1.line
+    shortLabel C1 Line
+    longLabel C1 Line
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.line.bb
+
+    track c1.effect_type
+    shortLabel C1 Effect Type
+    longLabel C1 Effect Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.effect_type.bb
+
+    track c1.mechanism_subtype
+    shortLabel C1 Mechanism Subtype
+    longLabel C1 Mechanism Subtype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.mechanism_subtype.bb
+
+    track c1.effect_direction
+    shortLabel C1 Effect Direction
+    longLabel C1 Effect Direction
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.effect_direction.bb
+
+    track c1.effect_strength_bin
+    shortLabel C1 Effect Strength Bin
+    longLabel C1 Effect Strength Bin
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.effect_strength_bin.bb
+
+    track c1.clair3_supported
+    shortLabel C1 Clair3 Supported
+    longLabel C1 Clair3 Supported
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.clair3_supported.bb
+
+    track c1.germline_flag
+    shortLabel C1 Germline Flag
+    longLabel C1 Germline Flag
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.germline_flag.bb
+
+    track c1.within_SV
+    shortLabel C1 Within Sv
+    longLabel C1 Within Sv
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.within_SV.bb
+
+    track c1.within_CNV
+    shortLabel C1 Within Cnv
+    longLabel C1 Within Cnv
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.within_CNV.bb
+
+    track c1.delta_p
+    shortLabel C1 delta-P
+    longLabel C1 delta-P (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.delta_p.bb
+
+    track c1.channel1_composite
+    shortLabel C1 Ch1 Composite
+    longLabel C1 Ch1 Composite (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_composite.bb
+
+    track c1.channel1_d1
+    shortLabel C1 Ch1-d1
+    longLabel C1 Ch1-d1 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_d1.bb
+
+    track c1.channel1_d2
+    shortLabel C1 Ch1-d2
+    longLabel C1 Ch1-d2 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_d2.bb
+
+    track c1.channel1_d3
+    shortLabel C1 Ch1-d3
+    longLabel C1 Ch1-d3 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_d3.bb
+
+    track c1.channel1_d4
+    shortLabel C1 Ch1-d4
+    longLabel C1 Ch1-d4 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_d4.bb
+
+    track c1.channel1_d5
+    shortLabel C1 Ch1-d5
+    longLabel C1 Ch1-d5 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.channel1_d5.bb
+
+    track c1.cadd_phred
+    shortLabel C1 CADD
+    longLabel C1 CADD (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.cadd_phred.bb
+
+    track c1.evidence_sum
+    shortLabel C1 Evidence Sum
+    longLabel C1 Evidence Sum (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.evidence_sum.bb
+
+    track c1.m_score
+    shortLabel C1 M-Score
+    longLabel C1 M-Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.m_score.bb
+
+    track c1.best_ref_score
+    shortLabel C1 Ref iM Prob
+    longLabel C1 Ref iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.best_ref_score.bb
+
+    track c1.best_alt_score
+    shortLabel C1 Alt iM Prob
+    longLabel C1 Alt iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.best_alt_score.bb
+
+    track c1.gnomad_max_af
+    shortLabel C1 gnomAD AF
+    longLabel C1 gnomAD AF (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.gnomad_max_af.bb
+
+    track c1.vep_csq_score
+    shortLabel C1 Vep Csq Score
+    longLabel C1 Vep Csq Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_csq_score.bb
+
+    track c1.vep_impact_score
+    shortLabel C1 Vep Impact Score
+    longLabel C1 Vep Impact Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_impact_score.bb
+
+    track c1.vep_combined_score
+    shortLabel C1 Vep Combined Score
+    longLabel C1 Vep Combined Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c1/c1.vep_combined_score.bb
+
+track c2_super
+shortLabel C2
+longLabel PC3 iM-Var Channel2 Tier1 (SV/CNV)
+superTrack on show
+
+    track c2.source
+    shortLabel C2 Source
+    longLabel C2 Source
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.source.bb
+
+    track c2.sv_type
+    shortLabel C2 Sv Type
+    longLabel C2 Sv Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.sv_type.bb
+
+    track c2.event_type
+    shortLabel C2 Event Type
+    longLabel C2 Event Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.event_type.bb
+
+    track c2.v_class
+    shortLabel C2 V-layer
+    longLabel C2 V-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.v_class.bb
+
+    track c2.o_class
+    shortLabel C2 O-layer
+    longLabel C2 O-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.o_class.bb
+
+    track c2.m_class
+    shortLabel C2 M-layer
+    longLabel C2 M-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.m_class.bb
+
+    track c2.e_class
+    shortLabel C2 E-layer
+    longLabel C2 E-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.e_class.bb
+
+    track c2.display_outcome
+    shortLabel C2 Claim
+    longLabel C2 Claim
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.display_outcome.bb
+
+    track c2.om_consistent
+    shortLabel C2 O-M Consistency
+    longLabel C2 O-M Consistency
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.om_consistent.bb
+
+    track c2.o_claim_scope
+    shortLabel C2 O Claim Scope
+    longLabel C2 O Claim Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.o_claim_scope.bb
+
+    track c2.seq_reconstruction_status
+    shortLabel C2 Seq Reconstruction Status
+    longLabel C2 Seq Reconstruction Status
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.seq_reconstruction_status.bb
+
+    track c2.effect_scope
+    shortLabel C2 Effect Scope
+    longLabel C2 Effect Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.effect_scope.bb
+
+    track c2.channel2_tier
+    shortLabel C2 Channel2 Tier
+    longLabel C2 Channel2 Tier
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_tier.bb
+
+    track c2.cnv_type
+    shortLabel C2 Cnv Type
+    longLabel C2 Cnv Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.cnv_type.bb
+
+    track c2.clinvar_sig
+    shortLabel C2 Clinvar Sig
+    longLabel C2 Clinvar Sig
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.clinvar_sig.bb
+
+    track c2.clinvar_disease
+    shortLabel C2 Clinvar Disease
+    longLabel C2 Clinvar Disease
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.clinvar_disease.bb
+
+    track c2.annotsv_acmg
+    shortLabel C2 Annotsv Acmg
+    longLabel C2 Annotsv Acmg
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.annotsv_acmg.bb
+
+    track c2.cn
+    shortLabel C2 Cn
+    longLabel C2 Cn
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.cn.bb
+
+    track c2.delta_p
+    shortLabel C2 delta-P
+    longLabel C2 delta-P (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.delta_p.bb
+
+    track c2.p_ref
+    shortLabel C2 Ref iM Prob
+    longLabel C2 Ref iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.p_ref.bb
+
+    track c2.p_alt
+    shortLabel C2 Alt iM Prob
+    longLabel C2 Alt iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.p_alt.bb
+
+    track c2.channel2_composite
+    shortLabel C2 Ch2 Composite
+    longLabel C2 Ch2 Composite (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_composite.bb
+
+    track c2.channel2_d1
+    shortLabel C2 Ch2-d1
+    longLabel C2 Ch2-d1 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_d1.bb
+
+    track c2.channel2_d2
+    shortLabel C2 Ch2-d2
+    longLabel C2 Ch2-d2 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_d2.bb
+
+    track c2.channel2_d3
+    shortLabel C2 Ch2-d3
+    longLabel C2 Ch2-d3 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_d3.bb
+
+    track c2.channel2_d4
+    shortLabel C2 Ch2-d4
+    longLabel C2 Ch2-d4 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_d4.bb
+
+    track c2.channel2_d5
+    shortLabel C2 Ch2-d5
+    longLabel C2 Ch2-d5 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.channel2_d5.bb
+
+    track c2.gnomad_sv_af
+    shortLabel C2 gnomAD SV AF
+    longLabel C2 gnomAD SV AF (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.gnomad_sv_af.bb
+
+    track c2.clingen_hi
+    shortLabel C2 ClinGen HI
+    longLabel C2 ClinGen HI (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.clingen_hi.bb
+
+    track c2.clingen_ts
+    shortLabel C2 ClinGen TS
+    longLabel C2 ClinGen TS (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.clingen_ts.bb
+
+    track c2.n_ims_affected
+    shortLabel C2 iMs Affected
+    longLabel C2 iMs Affected (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.n_ims_affected.bb
+
+    track c2.overlap_ratio
+    shortLabel C2 Overlap Ratio
+    longLabel C2 Overlap Ratio (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.overlap_ratio.bb
+
+    track c2.ref_im_count
+    shortLabel C2 Ref iM Cnt
+    longLabel C2 Ref iM Cnt (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.ref_im_count.bb
+
+    track c2.alt_im_count
+    shortLabel C2 Alt iM Cnt
+    longLabel C2 Alt iM Cnt (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.alt_im_count.bb
+
+    track c2.sv_qual
+    shortLabel C2 SV Qual
+    longLabel C2 SV Qual (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.sv_qual.bb
+
+    track c2.sv_support
+    shortLabel C2 SV Support
+    longLabel C2 SV Support (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.sv_support.bb
+
+    track c2.svlen
+    shortLabel C2 SV Len
+    longLabel C2 SV Len (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.svlen.bb
+
+    track c2.evidence_sum
+    shortLabel C2 Evidence Sum
+    longLabel C2 Evidence Sum (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent c2_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/c2/c2.evidence_sum.bb
+
+track jt1s_super
+shortLabel JT1*
 longLabel PC3 iM-Var Joint Tier1* (highest priority)
-type bigBed 9
-visibility pack
-itemRgb On
-bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/main/hg38/PC3.joint_tier1_star.ucsc.bb
+superTrack on show
 
-track PC3_Joint_Tier1
-shortLabel PC3 J T1
+    track jt1s.joint_tier
+    shortLabel JT1* Joint Tier
+    longLabel JT1* Joint Tier
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.joint_tier.bb
+
+    track jt1s.source
+    shortLabel JT1* Source
+    longLabel JT1* Source
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.source.bb
+
+    track jt1s.v_class
+    shortLabel JT1* V-layer
+    longLabel JT1* V-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.v_class.bb
+
+    track jt1s.o_class
+    shortLabel JT1* O-layer
+    longLabel JT1* O-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.o_class.bb
+
+    track jt1s.m_class
+    shortLabel JT1* M-layer
+    longLabel JT1* M-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.m_class.bb
+
+    track jt1s.e_class
+    shortLabel JT1* E-layer
+    longLabel JT1* E-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.e_class.bb
+
+    track jt1s.display_outcome
+    shortLabel JT1* Claim
+    longLabel JT1* Claim
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.display_outcome.bb
+
+    track jt1s.om_consistent
+    shortLabel JT1* O-M Consistency
+    longLabel JT1* O-M Consistency
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.om_consistent.bb
+
+    track jt1s.mechanism_freeze_status
+    shortLabel JT1* Mech Freeze
+    longLabel JT1* Mech Freeze
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.mechanism_freeze_status.bb
+
+    track jt1s.wetlab_mechanism_eligible
+    shortLabel JT1* Wetlab
+    longLabel JT1* Wetlab
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.wetlab_mechanism_eligible.bb
+
+    track jt1s.phasing_reliability_tier
+    shortLabel JT1* Phasing Tier
+    longLabel JT1* Phasing Tier
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.phasing_reliability_tier.bb
+
+    track jt1s.phasing_limitation_reason
+    shortLabel JT1* Phasing Limitation Reason
+    longLabel JT1* Phasing Limitation Reason
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.phasing_limitation_reason.bb
+
+    track jt1s.seq_reconstruction_status
+    shortLabel JT1* Seq Reconstruction Status
+    longLabel JT1* Seq Reconstruction Status
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.seq_reconstruction_status.bb
+
+    track jt1s.effect_scope
+    shortLabel JT1* Effect Scope
+    longLabel JT1* Effect Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.effect_scope.bb
+
+    track jt1s.event_type
+    shortLabel JT1* Event Type
+    longLabel JT1* Event Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.event_type.bb
+
+    track jt1s.o_claim_scope
+    shortLabel JT1* O Claim Scope
+    longLabel JT1* O Claim Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.o_claim_scope.bb
+
+    track jt1s.sv_type
+    shortLabel JT1* Sv Type
+    longLabel JT1* Sv Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.sv_type.bb
+
+    track jt1s.clinvar_clnsig
+    shortLabel JT1* ClinVar
+    longLabel JT1* ClinVar
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.clinvar_clnsig.bb
+
+    track jt1s.cosmic_db_id
+    shortLabel JT1* COSMIC
+    longLabel JT1* COSMIC
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.cosmic_db_id.bb
+
+    track jt1s.ccre_types
+    shortLabel JT1* cCRE
+    longLabel JT1* cCRE
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.ccre_types.bb
+
+    track jt1s.vep_consequence
+    shortLabel JT1* VEP
+    longLabel JT1* VEP
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_consequence.bb
+
+    track jt1s.vep_impact
+    shortLabel JT1* VEP Impact
+    longLabel JT1* VEP Impact
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_impact.bb
+
+    track jt1s.vep_gene
+    shortLabel JT1* VEP Gene
+    longLabel JT1* VEP Gene
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_gene.bb
+
+    track jt1s.vep_biotype
+    shortLabel JT1* VEP Biotype
+    longLabel JT1* VEP Biotype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_biotype.bb
+
+    track jt1s.gt
+    shortLabel JT1* Gt
+    longLabel JT1* Gt
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.gt.bb
+
+    track jt1s.is_phased
+    shortLabel JT1* Is Phased
+    longLabel JT1* Is Phased
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.is_phased.bb
+
+    track jt1s.line
+    shortLabel JT1* Line
+    longLabel JT1* Line
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.line.bb
+
+    track jt1s.effect_type
+    shortLabel JT1* Effect Type
+    longLabel JT1* Effect Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.effect_type.bb
+
+    track jt1s.mechanism_subtype
+    shortLabel JT1* Mechanism Subtype
+    longLabel JT1* Mechanism Subtype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.mechanism_subtype.bb
+
+    track jt1s.effect_direction
+    shortLabel JT1* Effect Direction
+    longLabel JT1* Effect Direction
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.effect_direction.bb
+
+    track jt1s.effect_strength_bin
+    shortLabel JT1* Effect Strength Bin
+    longLabel JT1* Effect Strength Bin
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.effect_strength_bin.bb
+
+    track jt1s.clair3_supported
+    shortLabel JT1* Clair3 Supported
+    longLabel JT1* Clair3 Supported
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.clair3_supported.bb
+
+    track jt1s.germline_flag
+    shortLabel JT1* Germline Flag
+    longLabel JT1* Germline Flag
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.germline_flag.bb
+
+    track jt1s.cosmic_match_type
+    shortLabel JT1* Cosmic Match Type
+    longLabel JT1* Cosmic Match Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.cosmic_match_type.bb
+
+    track jt1s.within_SV
+    shortLabel JT1* Within Sv
+    longLabel JT1* Within Sv
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.within_SV.bb
+
+    track jt1s.within_CNV
+    shortLabel JT1* Within Cnv
+    longLabel JT1* Within Cnv
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.within_CNV.bb
+
+    track jt1s.Phasing_Ambiguous
+    shortLabel JT1* Phasing Ambiguous
+    longLabel JT1* Phasing Ambiguous
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.Phasing_Ambiguous.bb
+
+    track jt1s.m_subtype
+    shortLabel JT1* M Subtype
+    longLabel JT1* M Subtype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.m_subtype.bb
+
+    track jt1s.calibrated_score
+    shortLabel JT1* Calibrated Score
+    longLabel JT1* Calibrated Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.calibrated_score.bb
+
+    track jt1s.joint_rank
+    shortLabel JT1* Rank
+    longLabel JT1* Rank (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.joint_rank.bb
+
+    track jt1s.pareto_tier
+    shortLabel JT1* Pareto Tier
+    longLabel JT1* Pareto Tier (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.pareto_tier.bb
+
+    track jt1s.delta_p
+    shortLabel JT1* delta-P
+    longLabel JT1* delta-P (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.delta_p.bb
+
+    track jt1s.best_ref_score
+    shortLabel JT1* Ref iM Prob
+    longLabel JT1* Ref iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.best_ref_score.bb
+
+    track jt1s.best_alt_score
+    shortLabel JT1* Alt iM Prob
+    longLabel JT1* Alt iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.best_alt_score.bb
+
+    track jt1s.percentile_score
+    shortLabel JT1* Percentile
+    longLabel JT1* Percentile (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.percentile_score.bb
+
+    track jt1s.channel1_composite
+    shortLabel JT1* Ch1 Composite
+    longLabel JT1* Ch1 Composite (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel1_composite.bb
+
+    track jt1s.channel1_d1
+    shortLabel JT1* Ch1-d1
+    longLabel JT1* Ch1-d1 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel1_d1.bb
+
+    track jt1s.channel1_d2
+    shortLabel JT1* Ch1-d2
+    longLabel JT1* Ch1-d2 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel1_d2.bb
+
+    track jt1s.channel1_d3
+    shortLabel JT1* Ch1-d3
+    longLabel JT1* Ch1-d3 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel1_d3.bb
+
+    track jt1s.channel1_d4
+    shortLabel JT1* Ch1-d4
+    longLabel JT1* Ch1-d4 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel1_d4.bb
+
+    track jt1s.channel1_d5
+    shortLabel JT1* Ch1-d5
+    longLabel JT1* Ch1-d5 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel1_d5.bb
+
+    track jt1s.channel2_composite
+    shortLabel JT1* Ch2 Composite
+    longLabel JT1* Ch2 Composite (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel2_composite.bb
+
+    track jt1s.channel2_d1
+    shortLabel JT1* Ch2-d1
+    longLabel JT1* Ch2-d1 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel2_d1.bb
+
+    track jt1s.channel2_d2
+    shortLabel JT1* Ch2-d2
+    longLabel JT1* Ch2-d2 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel2_d2.bb
+
+    track jt1s.channel2_d3
+    shortLabel JT1* Ch2-d3
+    longLabel JT1* Ch2-d3 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel2_d3.bb
+
+    track jt1s.channel2_d4
+    shortLabel JT1* Ch2-d4
+    longLabel JT1* Ch2-d4 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel2_d4.bb
+
+    track jt1s.channel2_d5
+    shortLabel JT1* Ch2-d5
+    longLabel JT1* Ch2-d5 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.channel2_d5.bb
+
+    track jt1s.cadd_phred
+    shortLabel JT1* CADD
+    longLabel JT1* CADD (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.cadd_phred.bb
+
+    track jt1s.gnomad_max_af
+    shortLabel JT1* gnomAD AF
+    longLabel JT1* gnomAD AF (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.gnomad_max_af.bb
+
+    track jt1s.m_score
+    shortLabel JT1* M-Score
+    longLabel JT1* M-Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.m_score.bb
+
+    track jt1s.evidence_sum
+    shortLabel JT1* Evidence Sum
+    longLabel JT1* Evidence Sum (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.evidence_sum.bb
+
+    track jt1s.z_score
+    shortLabel JT1* Z-Score
+    longLabel JT1* Z-Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.z_score.bb
+
+    track jt1s.view_a
+    shortLabel JT1* Pareto-A
+    longLabel JT1* Pareto-A (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.view_a.bb
+
+    track jt1s.view_b
+    shortLabel JT1* Pareto-B
+    longLabel JT1* Pareto-B (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.view_b.bb
+
+    track jt1s.view_c
+    shortLabel JT1* Pareto-C
+    longLabel JT1* Pareto-C (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.view_c.bb
+
+    track jt1s.vep_csq_score
+    shortLabel JT1* Vep Csq Score
+    longLabel JT1* Vep Csq Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_csq_score.bb
+
+    track jt1s.vep_impact_score
+    shortLabel JT1* Vep Impact Score
+    longLabel JT1* Vep Impact Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_impact_score.bb
+
+    track jt1s.vep_combined_score
+    shortLabel JT1* Vep Combined Score
+    longLabel JT1* Vep Combined Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1s_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1s/jt1s.vep_combined_score.bb
+
+track jt1_super
+shortLabel JT1
 longLabel PC3 iM-Var Joint Tier1
-type bigBed 9
-visibility pack
-itemRgb On
-bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/main/hg38/PC3.joint_tier1.ucsc.bb
+superTrack on show
+
+    track jt1.joint_tier
+    shortLabel JT1 Joint Tier
+    longLabel JT1 Joint Tier
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.joint_tier.bb
+
+    track jt1.source
+    shortLabel JT1 Source
+    longLabel JT1 Source
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.source.bb
+
+    track jt1.v_class
+    shortLabel JT1 V-layer
+    longLabel JT1 V-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.v_class.bb
+
+    track jt1.o_class
+    shortLabel JT1 O-layer
+    longLabel JT1 O-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.o_class.bb
+
+    track jt1.m_class
+    shortLabel JT1 M-layer
+    longLabel JT1 M-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.m_class.bb
+
+    track jt1.e_class
+    shortLabel JT1 E-layer
+    longLabel JT1 E-layer
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.e_class.bb
+
+    track jt1.display_outcome
+    shortLabel JT1 Claim
+    longLabel JT1 Claim
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.display_outcome.bb
+
+    track jt1.om_consistent
+    shortLabel JT1 O-M Consistency
+    longLabel JT1 O-M Consistency
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.om_consistent.bb
+
+    track jt1.mechanism_freeze_status
+    shortLabel JT1 Mech Freeze
+    longLabel JT1 Mech Freeze
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.mechanism_freeze_status.bb
+
+    track jt1.wetlab_mechanism_eligible
+    shortLabel JT1 Wetlab
+    longLabel JT1 Wetlab
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.wetlab_mechanism_eligible.bb
+
+    track jt1.phasing_reliability_tier
+    shortLabel JT1 Phasing Tier
+    longLabel JT1 Phasing Tier
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.phasing_reliability_tier.bb
+
+    track jt1.phasing_limitation_reason
+    shortLabel JT1 Phasing Limitation Reason
+    longLabel JT1 Phasing Limitation Reason
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.phasing_limitation_reason.bb
+
+    track jt1.seq_reconstruction_status
+    shortLabel JT1 Seq Reconstruction Status
+    longLabel JT1 Seq Reconstruction Status
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.seq_reconstruction_status.bb
+
+    track jt1.effect_scope
+    shortLabel JT1 Effect Scope
+    longLabel JT1 Effect Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.effect_scope.bb
+
+    track jt1.event_type
+    shortLabel JT1 Event Type
+    longLabel JT1 Event Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.event_type.bb
+
+    track jt1.o_claim_scope
+    shortLabel JT1 O Claim Scope
+    longLabel JT1 O Claim Scope
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.o_claim_scope.bb
+
+    track jt1.sv_type
+    shortLabel JT1 Sv Type
+    longLabel JT1 Sv Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.sv_type.bb
+
+    track jt1.clinvar_clnsig
+    shortLabel JT1 ClinVar
+    longLabel JT1 ClinVar
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.clinvar_clnsig.bb
+
+    track jt1.cosmic_db_id
+    shortLabel JT1 COSMIC
+    longLabel JT1 COSMIC
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.cosmic_db_id.bb
+
+    track jt1.ccre_types
+    shortLabel JT1 cCRE
+    longLabel JT1 cCRE
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.ccre_types.bb
+
+    track jt1.vep_consequence
+    shortLabel JT1 VEP
+    longLabel JT1 VEP
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_consequence.bb
+
+    track jt1.vep_impact
+    shortLabel JT1 VEP Impact
+    longLabel JT1 VEP Impact
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_impact.bb
+
+    track jt1.vep_gene
+    shortLabel JT1 VEP Gene
+    longLabel JT1 VEP Gene
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_gene.bb
+
+    track jt1.vep_biotype
+    shortLabel JT1 VEP Biotype
+    longLabel JT1 VEP Biotype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_biotype.bb
+
+    track jt1.gt
+    shortLabel JT1 Gt
+    longLabel JT1 Gt
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.gt.bb
+
+    track jt1.is_phased
+    shortLabel JT1 Is Phased
+    longLabel JT1 Is Phased
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.is_phased.bb
+
+    track jt1.line
+    shortLabel JT1 Line
+    longLabel JT1 Line
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.line.bb
+
+    track jt1.effect_type
+    shortLabel JT1 Effect Type
+    longLabel JT1 Effect Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.effect_type.bb
+
+    track jt1.mechanism_subtype
+    shortLabel JT1 Mechanism Subtype
+    longLabel JT1 Mechanism Subtype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.mechanism_subtype.bb
+
+    track jt1.effect_direction
+    shortLabel JT1 Effect Direction
+    longLabel JT1 Effect Direction
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.effect_direction.bb
+
+    track jt1.effect_strength_bin
+    shortLabel JT1 Effect Strength Bin
+    longLabel JT1 Effect Strength Bin
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.effect_strength_bin.bb
+
+    track jt1.clair3_supported
+    shortLabel JT1 Clair3 Supported
+    longLabel JT1 Clair3 Supported
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.clair3_supported.bb
+
+    track jt1.germline_flag
+    shortLabel JT1 Germline Flag
+    longLabel JT1 Germline Flag
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.germline_flag.bb
+
+    track jt1.cosmic_match_type
+    shortLabel JT1 Cosmic Match Type
+    longLabel JT1 Cosmic Match Type
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.cosmic_match_type.bb
+
+    track jt1.within_SV
+    shortLabel JT1 Within Sv
+    longLabel JT1 Within Sv
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.within_SV.bb
+
+    track jt1.within_CNV
+    shortLabel JT1 Within Cnv
+    longLabel JT1 Within Cnv
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.within_CNV.bb
+
+    track jt1.Phasing_Ambiguous
+    shortLabel JT1 Phasing Ambiguous
+    longLabel JT1 Phasing Ambiguous
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.Phasing_Ambiguous.bb
+
+    track jt1.m_subtype
+    shortLabel JT1 M Subtype
+    longLabel JT1 M Subtype
+    type bigBed 9
+    visibility pack
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.m_subtype.bb
+
+    track jt1.calibrated_score
+    shortLabel JT1 Calibrated Score
+    longLabel JT1 Calibrated Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.calibrated_score.bb
+
+    track jt1.joint_rank
+    shortLabel JT1 Rank
+    longLabel JT1 Rank (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.joint_rank.bb
+
+    track jt1.pareto_tier
+    shortLabel JT1 Pareto Tier
+    longLabel JT1 Pareto Tier (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.pareto_tier.bb
+
+    track jt1.delta_p
+    shortLabel JT1 delta-P
+    longLabel JT1 delta-P (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.delta_p.bb
+
+    track jt1.best_ref_score
+    shortLabel JT1 Ref iM Prob
+    longLabel JT1 Ref iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.best_ref_score.bb
+
+    track jt1.best_alt_score
+    shortLabel JT1 Alt iM Prob
+    longLabel JT1 Alt iM Prob (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.best_alt_score.bb
+
+    track jt1.percentile_score
+    shortLabel JT1 Percentile
+    longLabel JT1 Percentile (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.percentile_score.bb
+
+    track jt1.channel1_composite
+    shortLabel JT1 Ch1 Composite
+    longLabel JT1 Ch1 Composite (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel1_composite.bb
+
+    track jt1.channel1_d1
+    shortLabel JT1 Ch1-d1
+    longLabel JT1 Ch1-d1 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel1_d1.bb
+
+    track jt1.channel1_d2
+    shortLabel JT1 Ch1-d2
+    longLabel JT1 Ch1-d2 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel1_d2.bb
+
+    track jt1.channel1_d3
+    shortLabel JT1 Ch1-d3
+    longLabel JT1 Ch1-d3 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel1_d3.bb
+
+    track jt1.channel1_d4
+    shortLabel JT1 Ch1-d4
+    longLabel JT1 Ch1-d4 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel1_d4.bb
+
+    track jt1.channel1_d5
+    shortLabel JT1 Ch1-d5
+    longLabel JT1 Ch1-d5 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel1_d5.bb
+
+    track jt1.channel2_composite
+    shortLabel JT1 Ch2 Composite
+    longLabel JT1 Ch2 Composite (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel2_composite.bb
+
+    track jt1.channel2_d1
+    shortLabel JT1 Ch2-d1
+    longLabel JT1 Ch2-d1 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel2_d1.bb
+
+    track jt1.channel2_d2
+    shortLabel JT1 Ch2-d2
+    longLabel JT1 Ch2-d2 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel2_d2.bb
+
+    track jt1.channel2_d3
+    shortLabel JT1 Ch2-d3
+    longLabel JT1 Ch2-d3 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel2_d3.bb
+
+    track jt1.channel2_d4
+    shortLabel JT1 Ch2-d4
+    longLabel JT1 Ch2-d4 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel2_d4.bb
+
+    track jt1.channel2_d5
+    shortLabel JT1 Ch2-d5
+    longLabel JT1 Ch2-d5 (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.channel2_d5.bb
+
+    track jt1.cadd_phred
+    shortLabel JT1 CADD
+    longLabel JT1 CADD (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.cadd_phred.bb
+
+    track jt1.gnomad_max_af
+    shortLabel JT1 gnomAD AF
+    longLabel JT1 gnomAD AF (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.gnomad_max_af.bb
+
+    track jt1.m_score
+    shortLabel JT1 M-Score
+    longLabel JT1 M-Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.m_score.bb
+
+    track jt1.evidence_sum
+    shortLabel JT1 Evidence Sum
+    longLabel JT1 Evidence Sum (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.evidence_sum.bb
+
+    track jt1.z_score
+    shortLabel JT1 Z-Score
+    longLabel JT1 Z-Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.z_score.bb
+
+    track jt1.view_a
+    shortLabel JT1 Pareto-A
+    longLabel JT1 Pareto-A (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.view_a.bb
+
+    track jt1.view_b
+    shortLabel JT1 Pareto-B
+    longLabel JT1 Pareto-B (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.view_b.bb
+
+    track jt1.view_c
+    shortLabel JT1 Pareto-C
+    longLabel JT1 Pareto-C (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.view_c.bb
+
+    track jt1.vep_csq_score
+    shortLabel JT1 Vep Csq Score
+    longLabel JT1 Vep Csq Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_csq_score.bb
+
+    track jt1.vep_impact_score
+    shortLabel JT1 Vep Impact Score
+    longLabel JT1 Vep Impact Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_impact_score.bb
+
+    track jt1.vep_combined_score
+    shortLabel JT1 Vep Combined Score
+    longLabel JT1 Vep Combined Score (blue=low, red=high)
+    type bigBed 9
+    visibility dense
+    itemRgb On
+    parent jt1_super
+    bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/jt1/jt1.vep_combined_score.bb
