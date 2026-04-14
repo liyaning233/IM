@@ -1,0 +1,5 @@
+hub PC3_iM_Var
+shortLabel PC3 iM-Var
+longLabel Multi-tier iM-Var annotations for PC3 cell line (hg38)
+genomesFile genomes.txt
+email your.email@example.com
