@@ -4,7 +4,7 @@ longLabel PC3 iM-Var Channel1 Tier1 (SNV/Indel)
 type bigBed 9
 visibility pack
 itemRgb On
-bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/blob/main/hg38/PC3.channel1_tier1.ucsc.bb
+bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/main/hg38/PC3.channel1_tier1.ucsc.bb
 
 track PC3_C2_Annotated_Tier1
 shortLabel PC3 C2 T1
