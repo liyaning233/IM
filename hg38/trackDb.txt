@@ -4,7 +4,7 @@ longLabel PC3 iM-Var Channel1 Tier1 (SNV/Indel)
 type bigBed 9
 visibility pack
 itemRgb On
-bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/PC3.channel1_tier1.ucsc.bb
+bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/blob/main/hg38/PC3.channel1_tier1.ucsc.bb
 
 track PC3_C2_Annotated_Tier1
 shortLabel PC3 C2 T1
@@ -12,7 +12,7 @@ longLabel PC3 iM-Var Channel2 annotated Tier1 (SV/CNV)
 type bigBed 9
 visibility pack
 itemRgb On
-bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/PC3.channel2_annotated_tier1.ucsc.bb
+bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/blob/main/hg38/PC3.channel2_annotated_tier1.ucsc.bb
 
 track PC3_Joint_Tier1_Star
 shortLabel PC3 J T1*
@@ -20,7 +20,7 @@ longLabel PC3 iM-Var Joint Tier1* (highest priority)
 type bigBed 9
 visibility pack
 itemRgb On
-bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/PC3.joint_tier1_star.ucsc.bb
+bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/blob/main/hg38/PC3.joint_tier1_star.ucsc.bb
 
 track PC3_Joint_Tier1
 shortLabel PC3 J T1
@@ -28,4 +28,4 @@ longLabel PC3 iM-Var Joint Tier1
 type bigBed 9
 visibility pack
 itemRgb On
-bigDataUrl https://raw.githubusercontent.com/csbio-njupt/SEQ/HEAD/hg38/PC3.joint_tier1.ucsc.bb
+bigDataUrl https://raw.githubusercontent.com/liyaning233/IM/blob/main/hg38/PC3.joint_tier1.ucsc.bb
